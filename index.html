@@ -1,0 +1,300 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <meta charset="UTF-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>Bistro-bbq</title>
+      <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+      <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+      <link rel="stylesheet" href="style/style.css">
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+      <link rel="preconnect" href="https://fonts.googleapis.com">
+      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+      <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+   </head>
+   <body>
+      <section id="home">
+         <nav class="navbar navbar-expand-lg navbar-light">
+            <div class="container-fluid">
+               <a class="navbar-brand" href="index.html">
+               <img src="./pictures/logo.jpg" alt="logo" width="149" height="77">
+               </a>
+               <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+               <span class="navbar-toggler-icon"></span>
+               </button>
+               <div class="collapse navbar-collapse navbar-default" id="navbarSupportedContent">
+                  <ul class="navbar-nav me-auto mb-2 mb-lg-0 ">
+                     <li class="nav-item">
+                        <a class="nav-link  active" aria-current="page" href="index.html">Home</a>
+                     </li>
+                     <li class="nav-item">
+                        <a class="nav-link active" href="menu.html">Menu</a>
+                     </li>
+                     <li class="nav-item">
+                        <a class="nav-link active" href="index.html#about">About Us</a>
+                     </li>
+                     <li class="nav-item">
+                        <a class="nav-link active" href="index.html#discount">Deals</a>
+                     </li>
+                     <li class="nav-item">
+                        <a class="nav-link active" href="index.html#contact">Contacts</a>
+                     </li>
+                  </ul>
+               </div>
+            </div>
+         </nav>
+         <div class="wordBistro">
+            <img class="letter letterB" src="./pictures/b.png" alt="letterB">
+            <img class="letter letterI" src="./pictures/i.png" alt="letterI">
+            <img class="letter letterS" src="./pictures/s.png" alt="letterS">
+            <img class="letter letterT" src="./pictures/t.png" alt="letterT">
+            <img class="letter letterR" src="./pictures/r.png" alt="letterR">
+            <img class="letter letterO" src="./pictures/o.png" alt="letterO">
+         </div>
+         <div class="buttonContainer">
+            <div class="billShare">
+               <a href="calculate.html"> <button class="btn3">Split the bill</button></a>
+            </div>
+            <div class="btnPress">
+               <a href="#delivery"><button  class="btn1">Delivery</button></a>
+               <a href="#reservation"> <button class="btn2">Reserve a table</button></a>
+            </div>
+         </div>
+         <img onclick="topFunction()" id="myBtnUp" class="uparrow" src="./pictures/uparrow.png" alt="uparrow" width="50px"/>
+      </section>
+      <section id="about">
+         <div class="containerAbout">
+            <div class="about">
+               <h3 class="aboutHead">About Us</h3>
+               <p>BISTRO BBQ GRILL is a team of professionals who are truly passionate about what they do.
+                  Be sure to check out the wine and bar menus created by our head bartender.
+               </p>
+               <p>Enjoy a modern and inviting interior with large windows, ample natural light, and a minimalist design.</p>
+               <p>Our open kitchen allows you to watch as your chosen dishes are prepared, making the wait all the more exciting.
+                  The open summer terrace could become your favorite spot for lunch, dinner, or a relaxing evening.
+                  If you love great food, come visit us – you’re going to love it!
+               </p>
+            </div>
+            <div class="chefbox">
+               <img  class="chef" src="./pictures/chef.jpg" alt="chef">
+            </div>
+         </div>
+      </section>
+      <section id="delivery">
+         <div class="phone">
+            <h3 class="aboutHead">Menu delivery</h3>
+            <p class="aboutPar">Tel. +373 324 00 00</p>
+            <p class="aboutPar"> WhatsApp/Telegram: +373 357 00 00</p>
+            <p class="aboutPar"> Free Delivery on Orders Over $200.  We deliver within a 15 km radius.*</p>
+            <p  class="aboutPar1">*For delivery beyond 15 km, please check with our restaurant manager.</p>
+         </div>
+         <div class="containerDelivery">
+            <a href="menu.html#grill">
+               <div class="grillRelative">
+                  <img class="picDelivery"  src="./pictures/1grill.jpg" alt="Grill">
+                  <p class="grillText">Grill Dishes</p>
+               </div>
+            </a>
+            <a href="menu.html#pasta">
+               <div class="grillRelative">
+                  <img class="picDelivery" src="./pictures/2pasta.jpg" alt="Pasta">
+                  <p class="grillText">Pasta</p>
+               </div>
+            </a>
+            <a href="menu.html#soup">
+               <div class="grillRelative">
+                  <img class="picDelivery" src="./pictures/3soup.jpg" alt="Soups">
+                  <p class="grillText">Soups</p>
+               </div>
+            </a>
+            <a href="menu.html#snack">
+               <div class="grillRelative">
+                  <img class="picDelivery" src="./pictures/4snack.jpg" alt="Relative">
+                  <p class="grillText">Snacks</p>
+               </div>
+            </a>
+            <a href="menu.html#salad">
+               <div class="grillRelative">
+                  <img class="picDelivery" src="./pictures/5salad.jpg" alt="Salads">
+                  <p class="grillText">Salads</p>
+               </div>
+            </a>
+            <a href="menu.html#dessert">
+               <div class="grillRelative">
+                  <img class="picDelivery" src="./pictures/6dessert.jpg" alt="Dessert">
+                  <p class="grillText">Desserts</p>
+               </div>
+            </a>
+         </div>
+      </section>
+      <br>
+      <section id="discount">
+         <div class="discountHead">
+            <h3 class="discountH">Special Offers</h3>
+         </div>
+         <div class="timer">
+            <h4  class="timerH">Time Left for the Promotion:</h4>
+            <div class="containerBlock">
+               <div class="countDown">
+                  <div class="block">
+                     <h4 class="days"></h4>
+                     <h5>DAYS</h5>
+                  </div>
+               </div>
+               <div class="countDown">
+                  <div class="block">
+                     <h4 class="hours"></h4>
+                     <h5>HOURS</h5>
+                  </div>
+               </div>
+               <div class="countDown">
+                  <div class="block">
+                     <h4 class="minutes"></h4>
+                     <h5>MINUTES</h5>
+                  </div>
+               </div>
+               <div class="countDown">
+                  <div class="block">
+                     <h4 class="seconds"></h4>
+                     <h5>SECONDS</h5>
+                  </div>
+               </div>
+            </div>
+         </div>
+         <br>
+         <div class="discount">
+            <div class="boxStyle  box1">
+               <a href="menu.html#grill">
+               <img class="picture" src="./pictures/6.jpg" alt="" >
+               </a>
+               <p class="name">BBQ Pork Ribs with Tomato Sauce</p>
+               <p class="price"> <del>45 $</del> <ins>38 $</ins> </p>
+               <button class="cta cta1">Add to cart</button>
+            </div>
+            <div class="boxStyle  box1">
+               <a href="menu.html#grill">
+               <img class="picture" src="./pictures/7.jpg" alt="">
+               </a>
+               <p class="name">Grilled Pork Ribs with Spicy Glaze</p>
+               <p class="price"><del>58 $</del><ins>48 $</ins></p>
+               <button class="cta cta1">Add to cart</button>
+            </div>
+            <div class="boxStyle  box3">
+               <a href="menu.html#soup">
+               <img class="picture" src="./pictures/15.jpg" alt="">
+               </a>
+               <p class="name">chicken noodle soup with celery</p>
+               <p class="price"><del>28 $</del><ins>18 $</ins> </p>
+               <button class="cta cta3">Add to cart</button>
+            </div>
+            <div class="boxStyle  box4">
+               <a href="menu.html#snack">
+               <img class="picture" src="./pictures/20.jpg" alt="">
+               </a>
+               <p class="name">Canapes with smoked sockeye salmon and cream cheese</p>
+               <p class="price"><del>38 $</del><ins>32 $</ins> </p>
+               <button class="cta cta4">Add to cart</button>
+            </div>
+            <div class="boxStyle  box4">
+               <a href="menu.html#snack">
+               <img class="picture" src="./pictures/24.jpg" alt="">
+               </a>
+               <p class="name">Profiteroles with mackerel and cream cheese</p>
+               <p class="price"><del> 18 $</del> <ins>15 $</ins> </p>
+               <button class="cta cta4">Add to cart</button>
+            </div>
+            <div class="boxStyle  box5">
+               <a href="menu.html#salad">
+               <img class="picture" src="./pictures/32.jpg" alt="">
+               </a>
+               <p class="name">Olivier with salmon and caviar</p>
+               <p class="price"><del>22 $</del><ins>17 $</ins></p>
+               <button class="cta cta5">Add to cart</button>
+            </div>
+         </div>
+         <br>
+      </section>
+      <br>
+      <section id="reservation">
+         <div class="resVideo">
+            <form class="reservation" 
+               action="https://formspree.io/f/xayvolkb"
+               method="POST"
+               >
+               <h3 class="headRes">Reserve a table</h3>
+               <br>
+               <div class="res"> 
+                  <label>Name:</label>
+                  <input type="text" name="messageName" placeholder="Name..." class="bord" required> 
+               </div>
+               <div class="res">
+                  <label>E-mail:</label>
+                  <input type="email" name="email" placeholder="E-mail.." class="bord" required>
+               </div>
+               <div class="res">
+                  <label for="telNo">Phone number:</label>
+                  <input id="telNo" name="telNo" type="tel" required>
+               </div>
+               <div class="res">
+                  <label>Number of guests:</label>
+                  <input type="number" name="amount" min="1" value="1">
+               </div>
+               <div class="dateTime">
+                  <div class="res">
+                     <label for="start">Select a date:</label>
+                     <input type="date" id="start" name="trip-start"
+                        min="2022-02-18" max="2024-12-31">
+                  </div>
+                  <div class="res">
+                     <label for="appt">Select a time:</label>
+                     <input type="time" id="appt" name="appt" value="19:00"
+                        min="10:00" max="21:00" required>
+                  </div>
+               </div>
+               <div class="res">
+                  <button class="btnRes" type="submit">Book now</button>
+               </div>
+            </form>
+            <video autoplay muted loop id="myvideo" playsinline>
+               <source src="./Grilled steak.mp4" type="video/mp4">
+            </video>
+         </div>
+      </section>
+      <br>
+      <section id="contact">
+         <div class="contactContainer">
+            <div class="adresContainer">
+               <div class="address">
+                  <h3 class="contactH">Contact information:</h3>
+                  <p>Address:   1234  Fictional St, New York, NY 10001</p>
+                  <a href="tel:+192545000000" class="term1">
+                     <p> +373 357 00 00</p>
+                  </a>
+                  <a href="mailto:zadepschi@yahoo.com" class="term1">
+                     <p>info@bistro-bbq.com</p>
+                  </a>
+               </div>
+               <div class="containerApps">
+                  <a href="https://www.instagram.com/zadepschi/"><i class="fa fa-instagram" id="instagram"></i></a> 
+                  <i class="fa fa-whatsapp" id="whatsapp"></i>
+                  <i class="fa fa-telegram" id="telegram"></i>
+               </div>
+            </div>
+            <div class="map">
+               <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d10603.464582344805!2d-73.99444503929342!3d40.74570890259372!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c24fa5d33f083b%3A0xc80b8f06e177fe62!2z0J3RjNGOLdCZ0L7RgNC6LCDQodCo0JA!5e0!3m2!1sru!2str!4v1730064082646!5m2!1sru!2str" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+         </div>
+      </section>
+      <footer class="my-5 pt-2 text-muted text-center text-small">
+         <p class="mb-1">© 2024 by Zadepschi</p>
+         <ul class="list-inline">
+            <li class="list-inline-item "><a href="#" class="term">Privacy</a></li>
+            <li class="list-inline-item "><a href="#" class="term">Terms</a></li>
+         </ul>
+         <p>All rights reserved</p>
+      </footer>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.9.1/gsap.min.js"></script>
+      <script src="scripts/main.js"></script>
+   </body>
+</html>

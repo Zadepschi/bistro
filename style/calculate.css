@@ -1,0 +1,178 @@
+
+
+.navbar {
+    background-color: #e6e4d7;
+  }
+  .navbar-brand {
+    margin-left: 40px;
+  }
+  .nav-item {
+   margin-left: 60px;
+   font-family: 'Balsamiq Sans', cursive;
+   font-size: 25px;
+   text-shadow:  1px 1px 2px rgb(63, 63, 63), 0 0 1px rgb(62, 62, 80), 0 0 1px rgb(83, 78, 78);
+  }
+  .form-control {
+    font-family: 'Balsamiq Sans', cursive;
+  }
+
+
+
+
+
+
+
+body.fon {
+    background-image: url(../pictures/222.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-color:rgba(94, 97, 93, 0.9);
+    
+    }
+#container {
+    background-color:rgba(30, 33, 34, 0.5);
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    width: 600px;
+    height: 520px;
+    border-radius: 40px;
+    color: white;
+    }
+.form {
+    display: flex;
+    flex-direction: column;
+    font-family: 'Montserrat', sans-serif;
+    margin: 10px;
+    padding: 10px;
+    text-shadow: 1px 1px 2px black, 0 0 25px rgb(62, 62, 80), 0 0 5px black;
+    }
+.h1 {
+    font-size: 30px;
+    font-family: 'Balsamiq Sans', cursive;
+    align-self: center;
+    color: #9dcff8;
+    margin-top: 10px;
+    text-shadow: 1px 1px 2px black, 0 0 25px rgb(62, 62, 80), 0 0 5px black;
+    }    
+.input {
+    font-family: 'Balsamiq Sans', cursive;
+    padding: 5px;
+    background-color: rgb(230, 228, 215, 0.8);
+    }
+#addTip {
+    background-color:#c7dbec;
+    border: none;
+    border-radius: 10px;
+    padding: 5px;
+    font-family: 'Balsamiq Sans', cursive;
+    
+    }
+#btn {
+    background-color: #b9f1bc;
+    padding: 5px;
+    border-radius: 10px;
+    border: none;
+    margin-top: 10px;
+    font-family: 'Balsamiq Sans', cursive;
+    }
+#tip {
+    font-family: 'Balsamiq Sans', cursive;
+    display: none;
+    background-color: hsl(208, 49%, 85%);
+}
+#showTotalAmountToPay {
+    display: flex;
+    justify-content: center;
+
+}
+#billSplit, #totalTip,#totalAmount {
+    font-family: 'Balsamiq Sans', cursive;
+    background-color: rgba(137, 174, 189, 0.9);
+    margin: 5px;
+    padding: 10px;
+    border-radius: 10px;
+    border: 1px solid black;
+    color: whitesmoke;
+    text-shadow: 1px 1px 2px black, 0 0 5px rgb(62, 62, 80), 0 0 5px black;
+}
+.boxCalculate {
+    display: flex;
+    justify-content: center;
+}
+
+
+
+@media all and (max-width: 1280px) {
+    .nav-item {
+        margin-left: 50px;
+    }
+}
+@media all and (max-width: 920px)  {
+    body {
+    background-image: url(222k.jpg);
+    background-size: cover;
+    background-position: center;
+}
+}
+
+@media all and (max-width: 600px) {
+#container {
+    width: 560px;
+}
+}
+
+@media all and (max-width: 540px) {
+    #container {
+        width: 500px;
+    }
+    }
+
+    
+@media all and (max-width: 414px) {
+    #container {
+        width: 380px;
+        height: 600px;
+    }
+    #addTip {
+        width: 80%;
+    }
+    #tip{
+        width: 80%;
+    }
+    #btn {
+        width: 80%;
+    }
+    #billSplit, #totalTip,#totalAmount {
+        margin: 5px;
+        padding: 5px;
+    }
+    }
+
+    @media all and (max-width: 375px)  {
+        #container {
+            width: 360px;
+            height: 600px;
+        }
+    }
+
+    @media all and (max-width: 360px)  {
+        #container {
+            width: 340px;
+            height: 600px;
+        }
+    }
+    @media all and (max-width: 320px)  {
+        #container {
+            width: 300px;
+            height: 620px;
+        }
+    }
+
+    @media all and (max-width: 280px)  {
+        #container {
+            width: 260px;
+            height: 620px;
+        }
+    }

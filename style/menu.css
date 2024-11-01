@@ -1,0 +1,216 @@
+.navbar {
+    background-color: #e6e4d7;
+  }
+  .navbar-brand {
+    margin-left: 40px;
+  }
+  .nav-item {
+   margin-left: 70px;
+   font-family: 'Balsamiq Sans', cursive;
+   font-size: 25px;
+   text-shadow:  1px 1px 2px rgb(63, 63, 63), 0 0 1px rgb(62, 62, 80), 0 0 1px rgb(83, 78, 78);
+  }
+  .form-control {
+    font-family: 'Balsamiq Sans', cursive;
+  }
+
+  #search {
+    width: 300px;
+}
+.uparrow {
+    position: fixed;
+    right: 50px;
+    bottom: 20px;
+    display: none;
+    z-index: 10;
+    background: rgba(205, 212, 221, 0.5);
+ }
+
+
+  
+.header, .head {
+    display: flex;
+    justify-content: center;
+    font-family: 'Balsamiq Sans', cursive;
+    text-shadow:  1px 1px 2px rgb(63, 63, 63), 0 0 1px rgb(62, 62, 80), 0 0 1px rgb(83, 78, 78);
+}
+.header {
+font-size: 40px;
+}
+.head {
+    font-size: 35px;
+}
+.buttons {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.container1, .container2, .container3,
+.container4, .container5, .container6 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.boxStyle {
+    display: flex;
+    flex-direction: column;
+    background-color: #f8f7e9;
+   max-width: 500px;
+   padding: 20px;
+   margin: 20px;
+   border-radius: 20px;
+}
+.box1 {
+    box-shadow: 5px 10px 12px rgb(145, 145, 253);
+}
+.box2 {
+    box-shadow: 5px 10px 12px  hsl(5, 79%, 77%);
+}
+.box3 {
+    box-shadow: 5px 10px 12px rgb(171, 245, 171);
+}
+.box4 {
+    box-shadow: 5px 10px 12px #94f6f8;
+}
+.box5  {
+box-shadow: 5px 10px 12px #e2b8f5;
+}
+.box6 {
+    box-shadow:5px 10px 12px  #71e6ce;
+}
+.picture {
+    align-self: center;
+    width: 400px;
+    height: 260px;
+}
+
+.cta {
+    align-self: center;
+    width: 60%;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 20px;
+    font-family: 'Balsamiq Sans', cursive;
+    font-size: 30px;
+    color: #fff;
+    cursor: pointer;
+    text-shadow:  1px 1px 2px rgb(63, 63, 63), 0 0 4px rgb(62, 62, 80), 0 0 2px rgb(83, 78, 78);
+}
+.cta:hover {
+    color: #141212;
+    text-shadow: none;
+    font-weight: bolder;
+}
+.cta1 {
+    background-color: rgb(145, 145, 253);
+  
+}
+.cta11 {
+    padding: 10px;
+    margin: 1px;
+    border-radius: 20px;
+    font-family: 'Balsamiq Sans', cursive;
+    font-size: 22px;
+    color: #fff;
+    cursor: pointer;
+    width: 250px;
+    text-shadow:  1px 1px 2px rgb(63, 63, 63), 0 0 4px rgb(62, 62, 80), 0 0 2px rgb(83, 78, 78);
+}
+.cta11:hover {
+    color: #502d2d;
+    text-shadow: none;
+    font-weight: bolder;
+}
+.cta2 {
+    background-color: hsl(5, 79%, 77%);
+}
+.cta3 {
+    background-color:rgb(171, 245, 171);
+}
+.cta4 {
+    background-color: #94f6f8;
+}
+.cta5 {
+background-color: #e2b8f5;
+}
+.cta6 {
+background-color: #71e6ce;
+}
+.name {
+    align-self: center;
+    font-family: 'Balsamiq Sans', cursive;
+    font-size: 30px;
+}
+.price {
+    align-self: center;
+    font-family: 'Balsamiq Sans', cursive;
+    font-size: 35px;
+    font-weight: bold;
+}
+del {
+    background-color: antiquewhite;
+}
+ins {
+    text-decoration: none;
+    background-color: #fc3434;
+    display: inline-block;
+    transform: rotate(15deg);
+}
+
+
+
+
+
+@media all and (max-width: 912px) {
+.boxStyle {
+    width: 400px;
+}
+.picture {
+    width: 360px;
+}
+}
+
+
+
+@media all and (max-width: 820px) {
+    .boxStyle {
+        width: 360px;
+    }
+    .picture {
+        width: 330px;
+        height: 220px;
+    }
+    }
+    
+
+
+@media all and (max-width: 768px) {
+    .boxStyle {
+        width: 340px;
+    }
+    .picture {
+        width: 300px;
+        height: 200px;
+    }
+    }    
+
+    @media all and (max-width: 600px) {
+        .boxStyle {
+            width: 260px;
+        }
+        .picture {
+            width: 240px;
+            height: 160px;
+        }
+        .name {
+            font-size: 25px;
+        }
+        .price {
+            font-size: 28px;
+        }
+        .cta {
+            font-size: 20px;
+        }
+        }
+        
