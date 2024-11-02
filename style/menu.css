@@ -4,6 +4,11 @@
   .navbar-brand {
     margin-left: 40px;
   }
+  .responsive-logo {
+    width: auto;
+    height: 60px; /* Начальная высота логотипа для больших экранов */
+    max-height: 100px;
+}
   .nav-item {
    margin-left: 70px;
    font-family: 'Balsamiq Sans', cursive;
@@ -186,6 +191,9 @@ ins {
 
 
 @media all and (max-width: 768px) {
+    .responsive-logo {
+        height: 50px; /* Уменьшаем высоту на планшетах */
+    }
     .boxStyle {
         width: 340px;
     }
@@ -214,3 +222,4 @@ ins {
         }
         }
         
+     

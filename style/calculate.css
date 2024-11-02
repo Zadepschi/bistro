@@ -6,6 +6,11 @@
   .navbar-brand {
     margin-left: 40px;
   }
+  .responsive-logo {
+    width: auto;
+    height: 60px; /* Начальная высота логотипа для больших экранов */
+    max-height: 100px;
+}
   .nav-item {
    margin-left: 60px;
    font-family: 'Balsamiq Sans', cursive;
@@ -116,7 +121,12 @@ body.fon {
     background-position: center;
 }
 }
-
+@media (max-width: 768px) {
+  
+    .responsive-logo {
+        height: 50px; /* Уменьшаем высоту на планшетах */
+    }
+}
 @media all and (max-width: 600px) {
 #container {
     width: 560px;
@@ -131,6 +141,9 @@ body.fon {
 
     
 @media all and (max-width: 414px) {
+    .responsive-logo {
+        height: 40px; /* Уменьшаем высоту на мобильных устройствах */
+    }
     #container {
         width: 380px;
         height: 600px;
