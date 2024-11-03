@@ -25,10 +25,10 @@ body {
     max-height: 100px;
 }
   .nav-item {
-  margin-left: 60px;
+  margin-left: 50px;
    padding: 0 10px;
    font-family: "Montserrat", sans-serif;
-   font-size: 25px;
+   font-size: 23px;
    text-shadow:  1px 1px 2px rgb(63, 63, 63), 0 0 1px rgb(62, 62, 80), 0 0 1px rgb(83, 78, 78);
    font-weight: 500;
   }
@@ -108,23 +108,19 @@ body {
     background: rgb(240, 243, 247, 0.5);
  }
 
-
-
-
-
-
-
-  #about {
+ #about {
     min-height: 100vh;
     display: flex;
     align-items: center;
+    padding: 10px;
+    box-sizing: border-box;
 }
 
 .containerAbout {
     display: flex;
     justify-content: space-around;
     flex-wrap: wrap;
-    padding: 10px; 
+    padding: 5px; 
     color: #fff;
 }
 
@@ -139,24 +135,30 @@ body {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    width: 50%;
-    padding: 20px;
+    width: 45%; /* Обновлено для лучшей адаптивности */
+    padding: 10px;
     margin: 10px;
     font-family: "Montserrat", sans-serif;
-    font-size: 22px;
+    font-size: 20px;
+    box-sizing: border-box;
 }
-
 .chefbox {
     display: flex;
     justify-content: center;
     align-items: center;
     padding: 10px; 
+    width: 45%; /* Обновлено для лучшей адаптивности */
+    box-sizing: border-box;
 }
+
+
 
 .chef {
     width: 100%;
     max-width: 700px;
+    height: auto;
     box-shadow: 1px 1px 2px black, 0 0 25px rgb(62, 62, 80), 0 0 5px black;
+    border-radius: 10px;
 }
 
 
@@ -2179,7 +2181,34 @@ h5 {
 }
 
 */
+
+@media all and (max-width: 1120px) {
+    .nav-item {
+        margin-left: 20px;
+
+        padding: 0 ;
+         font-size: 20px;
+
+
+        }
+       
+}
+
+
+
+
+
+
+
 @media all and (max-width: 970px) {
+    .nav-item {
+        margin-left: 20px ;
+
+
+         font-size: 20px;
+
+
+        }
     .btnPress {
         flex-direction: column;
         align-items: center;
@@ -2189,13 +2218,22 @@ h5 {
         width: 27vw;
         font-size: 16px;
     }
+    .aboutHead {
+        font-size: 32px;
+    }
+    .about, .chefbox {
+        width: 100%; /* Полная ширина для лучшего отображения */
+        margin: 5px 0;
+    }
 }
 
 
 @media (max-width: 768px) {
     .nav-item {
-        font-size: 20px;
-    }
+        font-size: 18px; /* Уменьшаем размер шрифта для планшетов */
+        margin-left: 30px;
+        padding: 0 5px;  
+      }
     .responsive-logo {
         height: 50px; /* Уменьшаем высоту на планшетах */
     }
@@ -2204,8 +2242,8 @@ h5 {
     }
 
     .about {
-        width: 90%; 
-        font-size: 18px;
+        width: 100%; 
+        font-size: 16px;
     }
 
     .aboutHead {
@@ -2213,11 +2251,29 @@ h5 {
     }
 
     .chef {
-        width: 80%; 
+        width: 100%; 
     }
 }
+@media (max-width: 576px) {
+    .aboutHead {
+        font-size: 24px;
+    }
+    .about {
+        font-size: 14px;
+        padding: 6px;
+    }
+  
+}
+
+
+
 
 @media (max-width: 550px) { 
+    .nav-item {
+        font-size: 16px; /* Еще меньше для мобильных устройств */
+        margin-left: 15px;
+        padding: 0 3px;
+      }
     .btn1, .btn2, .btn3 {
         width: 47vw; 
     }
