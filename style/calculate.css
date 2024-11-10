@@ -4,19 +4,22 @@
     background-color: #e6e4d7;
   }
   .navbar-brand {
-    margin-left: 40px;
+    margin-left: 10px;
+
   }
   .responsive-logo {
     width: auto;
-    height: 60px; /* Начальная высота логотипа для больших экранов */
+    height: 60px; 
     max-height: 100px;
 }
-  .nav-item {
-   margin-left: 60px;
-   font-family: 'Balsamiq Sans', cursive;
-   font-size: 25px;
-   text-shadow:  1px 1px 2px rgb(63, 63, 63), 0 0 1px rgb(62, 62, 80), 0 0 1px rgb(83, 78, 78);
-  }
+.nav-item {
+    margin-left: 50px;
+     padding: 0 10px;
+     font-family: "Montserrat", sans-serif;
+     font-size: 23px;
+     text-shadow:  1px 1px 2px rgb(63, 63, 63), 0 0 1px rgb(62, 62, 80), 0 0 1px rgb(83, 78, 78);
+     font-weight: 500;
+    }
   .form-control {
     font-family: 'Balsamiq Sans', cursive;
   }
@@ -33,7 +36,7 @@ body.fon {
     background-size: cover;
     background-position: center;
     background-color:rgba(94, 97, 93, 0.9);
-    
+    min-height: 100vh;
     }
 #container {
     background-color:rgba(30, 33, 34, 0.5);
@@ -112,8 +115,33 @@ body.fon {
 @media all and (max-width: 1280px) {
     .nav-item {
         margin-left: 50px;
+        padding: 0 ;
+        font-size: 20px;
     }
 }
+
+@media all and (max-width: 1120px) {
+    .nav-item {
+        margin-left: 20px;
+
+       
+
+
+        }
+       
+}
+@media all and (max-width: 970px) {
+    .nav-item {
+        margin-left: 20px ;
+
+
+         font-size: 20px;
+
+
+        }
+
+    }
+
 @media all and (max-width: 920px)  {
     body {
     background-image: url(222k.jpg);
@@ -124,25 +152,49 @@ body.fon {
 @media (max-width: 768px) {
   
     .responsive-logo {
-        height: 50px; /* Уменьшаем высоту на планшетах */
+        height: 50px; 
     }
+
+.nav-item {
+    font-size: 18px; 
+    margin-left: 30px;
+    padding: 0 5px;  
+  }
+
 }
+
+
 @media all and (max-width: 600px) {
 #container {
     width: 560px;
 }
 }
+@media (max-width: 550px) { 
+ 
+    .responsive-logo {
+        height: 40px; 
+    }
+
+  }
+
+
+
 
 @media all and (max-width: 540px) {
     #container {
         width: 500px;
     }
+    .nav-item {
+        font-size: 16px; 
+        margin-left: 15px;
+        padding: 0 3px;
+      }
     }
 
     
 @media all and (max-width: 414px) {
     .responsive-logo {
-        height: 40px; /* Уменьшаем высоту на мобильных устройствах */
+        height: 40px; 
     }
     #container {
         width: 380px;

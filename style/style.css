@@ -21,7 +21,7 @@ body {
   }
   .responsive-logo {
     width: auto;
-    height: 60px; /* Начальная высота логотипа для больших экранов */
+    height: 60px; 
     max-height: 100px;
 }
   .nav-item {
