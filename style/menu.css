@@ -268,4 +268,11 @@ body {
     border-radius: 15px;
    
   }
+  .uparrow {
+  
+    right: 30px;
+    bottom: 20px;
+    width: 30px;
+ }
+
 }
