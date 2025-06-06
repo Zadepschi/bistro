@@ -936,4 +936,10 @@ input {
         height: 300px;
         border: 0;
     }
+      .uparrow {
+  
+    right: 30px;
+    bottom: 20px;
+    width: 30px;
+ }
 }
