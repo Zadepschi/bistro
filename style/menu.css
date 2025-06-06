@@ -49,11 +49,16 @@
 }
 .header {
 font-size: 40px;
+margin-top: 10px;
+}
+.head {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  width: 100%;
 }
 
-.head {
-    font-size: 35px;
-}
 .buttons {
     display: flex;
     flex-wrap: wrap;
@@ -239,3 +244,28 @@ body {
         padding: 0 3px;
       }
   }
+
+
+
+  @media (max-width: 600px) {
+  .buttons {
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 6px; /* немного отступов между кнопками */
+  }
+
+  .buttons a {
+    width: 45%; /* чтобы помещались по две в строку */
+    display: flex;
+    justify-content: center;
+     text-decoration: none;
+  }
+
+  .buttons .cta11 {
+    font-size: 16px;
+    padding: 8px;
+    width: 100%; /* чтобы кнопка заполнила ссылку */
+    border-radius: 15px;
+   
+  }
+}

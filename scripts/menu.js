@@ -5,7 +5,7 @@ const hrs = document.querySelectorAll("hr");
 const buttons = document.querySelectorAll(".cta"); // кнопки "Add to cart"
 const menuButtons = document.querySelector(".buttons"); // блок с меню-кнопками
 
-searchInput.addEventListener("keyup", function (event) {
+searchInput.addEventListener("input", function (event) {
   const word = event.target.value.toLowerCase().trim();
 
   let found = false;
