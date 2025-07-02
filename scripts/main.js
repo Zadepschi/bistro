@@ -1,7 +1,7 @@
 
 
 function discountCountdown() {
-    const lastDate = new Date("March 21, 2025 23:55");
+    const lastDate = new Date("September 21, 2025 23:55");
     const now  = new Date()
     const diff = lastDate - now;
     

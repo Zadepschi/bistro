@@ -20,7 +20,7 @@ searchInput.addEventListener("input", function (event) {
   if (word !== "") {
     heads.forEach(h => h.style.display = "none");
     hrs.forEach(hr => hr.style.display = "none");
-    buttons.forEach(btn => btn.style.display = "none");
+   
     menuButtons.style.display = "none"; // скрываем все навигационные кнопки
   } else {
     heads.forEach(h => h.style.display = "block");
