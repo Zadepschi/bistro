@@ -165,7 +165,9 @@ body {
 
 
 /*Delivery*/
-
+#delivery {
+min-height: 100vh;
+}
 .phone {
     margin: 5px;
     padding: 5px;
