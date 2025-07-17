@@ -62,9 +62,9 @@ body {
 
 
 .btnPress {
-    margin-top: auto; /* Отправляет .btnPress вниз */
-    display: flex; /* Если в .btnPress несколько кнопок, они будут расположены в ряд */
-    gap: 10px; /* Расстояние между кнопками */
+    margin-top: auto; 
+    display: flex; 
+    gap: 10px; 
     margin-bottom: 70px;
 }
 .btn3 {
@@ -224,9 +224,9 @@ min-height: 100vh;
     
 }
 
-/*Discount*/
+
 #discount {
-    background-color: #f9f9f9; /* Светлый фон */
+    background-color: #f9f9f9; 
     min-height: 100vh;
 }
 
@@ -276,10 +276,10 @@ padding: 20px 0 0 0;
     margin-top: 10px;
     animation: animate 5s linear infinite;
 
-    /* Flexbox для центрирования */
+  
     display: flex;
-    justify-content: center; /* горизонтальное центрирование */
-    align-items: center;     /* вертикальное центрирование */
+    justify-content: center; 
+    align-items: center;     
 }
 @keyframes animate {
     from {
@@ -308,112 +308,6 @@ padding: 20px 0 0 0;
     font-size: 50px;
    
 }
-/*
-.discount {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-around;
-    margin: 10px;
-  }
-
-
-
-
-.boxStyle {
-    display: flex;
-    flex-direction: column;
-    background-color: #e9e9f8;
-   max-width: 400px;
-   padding: 20px;
- margin: 20px;
-   border-radius: 20px;
-}
-
-
-.box1 {
-    box-shadow: 5px 10px 12px rgb(145, 145, 253);
-}
-.box2 {
-    box-shadow: 5px 10px 12px  hsl(5, 79%, 77%);
-}
-.box3 {
-    box-shadow: 5px 10px 12px rgb(171, 245, 171);
-}
-.box4 {
-    box-shadow: 5px 10px 12px #94f6f8;
-}
-.box5  {
-box-shadow: 5px 10px 12px #e2b8f5;
-}
-.box6 {
-    box-shadow:5px 10px 12px  #71e6ce;
-}
-
-.picture {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-}
-.name {
-    align-self: center;
-   font-family: 'Bebas Neue', cursive;
-    font-size: 26px;
-}
-
-.price {
-    align-self: center;
-    font-family: 'Balsamiq Sans', cursive;
-    font-size: 25px;
-    font-weight: bold;
-}
-del {
-    background-color: antiquewhite;
-    padding: 5px;
-}
-ins {
-    text-decoration: none;
-    background-color: #fc3434;
-    display: inline-block;
-    transform: rotate(15deg);
-    padding: 5px;
-}
-
-.cta {
-    align-self: center;
-    width: 60%;
-    padding: 10px;
-    margin: 10px;
-    border-radius: 20px;
-    font-family: 'Balsamiq Sans', cursive;
-    font-size: 30px;
-    color: #fff;
-    cursor: pointer;
-    text-shadow:  1px 1px 2px rgb(63, 63, 63), 0 0 4px rgb(62, 62, 80), 0 0 2px rgb(83, 78, 78);
-}
-.cta:hover {
-    color: #141212;
-    text-shadow: none;
-    font-weight: bolder;
-}
-.cta1 {
-    background-color: rgb(145, 145, 253);
-}
-.cta2 {
-    background-color: hsl(5, 79%, 77%);
-}
-.cta3 {
-    background-color:rgb(171, 245, 171);
-}
-.cta4 {
-    background-color: #94f6f8;
-}
-.cta5 {
-background-color: #e2b8f5;
-}
-.cta6 {
-background-color: #71e6ce;
-}
-*/
 
 
 .discount {
@@ -426,17 +320,17 @@ background-color: #71e6ce;
 }
 
 .boxStyle {
-    background-color: #ffffff; /* Белый фон для каждой карточки */
+    background-color: #ffffff; 
     border-radius: 8px;
     box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
     overflow: hidden;
-    width: 220px; /* Ширина карточки */
+    width: 220px; 
     text-align: center;
     transition: transform 0.3s ease;
 }
 
 .boxStyle:hover {
-    transform: translateY(-5px); /* Эффект подъема при наведении */
+    transform: translateY(-5px); 
 }
 
 .picture {
@@ -516,7 +410,7 @@ background-color: #71e6ce;
 
 
 
-/*Reservation*/
+
 #reservation {
    background-color: #212222;
     min-height: 100vh;
@@ -578,7 +472,7 @@ input {
     text-shadow:  1px 1px 2px black, 0 0 25px brown, 0 0 5px black;
 }
 
-/*Contact*/
+
 
 .contactContainer {
     display: flex;
@@ -690,7 +584,7 @@ input {
         font-size: 32px;
     }
     .about, .chefbox {
-        width: 100%; /* Полная ширина для лучшего отображения */
+        width: 100%; 
         margin: 5px 0;
     }
     #myvideo {
@@ -708,15 +602,15 @@ input {
 
 @media (max-width: 768px) {
     .nav-item {
-        font-size: 18px; /* Уменьшаем размер шрифта для планшетов */
+        font-size: 18px; 
         margin-left: 30px;
         padding: 0 5px;  
       }
     .responsive-logo {
-        height: 50px; /* Уменьшаем высоту на планшетах */
+        height: 50px; 
     }
     .letter {
-        width: 15vw; /* Увеличим относительную ширину для мобильных */
+        width: 15vw; 
     }
 
     .about {
@@ -800,7 +694,7 @@ input {
 
 @media (max-width: 550px) { 
     .nav-item {
-        font-size: 16px; /* Еще меньше для мобильных устройств */
+        font-size: 16px; 
         margin-left: 15px;
         padding: 0 3px;
       }
@@ -808,7 +702,7 @@ input {
         width: 47vw; 
     }
     .responsive-logo {
-        height: 40px; /* Уменьшаем высоту на мобильных устройствах */
+        height: 40px; 
     }
     .grillRelative {
 
@@ -887,7 +781,7 @@ input {
       
   }
 
-  /* Mobile Styles */
+  
 @media (max-width: 600px) {
     .contactContainer {
         flex-direction: column;
