@@ -22,8 +22,8 @@ function calculateAmount(e) {
     if (bill === "" || people === "" || people < 1) {
         Swal.fire({
             icon: 'error',
-            title: 'Ошибка!',
-            text: 'Введие вашу информацию!'
+            title: 'Error!',
+            text: 'Enter your information!'
            
           })
     }
